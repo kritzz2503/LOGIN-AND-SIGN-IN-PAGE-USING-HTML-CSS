@@ -1,0 +1,116 @@
+<html>
+    <body>
+        <style>
+            body{
+                background:linear-gradient(to right, rgb(6, 1, 1),rgb(122, 32, 7));
+                height:90vh;
+                width:90vw;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+            }
+            form{
+                width:40%;
+                height:90%;
+                display:flex;
+                flex-direction:column;
+                box-shadow:3px 3px 3px 3px rgba(74, 73, 73, 0.3);
+            }
+            h1{
+                font:sitka small;
+                text-shadow:rgba(225, 225, 225, 0.5);
+                color:rgba(225, 225, 225, 0.8);
+                text-align:center;
+            }
+            label{
+                color:rgba(225, 225, 225, 0.8);
+                text-shadow:rgba(225, 225, 225, 0.3);
+                margin-left:20px;
+                margin-bottom:10px;
+                font:sitka small;
+                font-size:18px;
+            }
+            input{
+                width:85%;
+                margin-left:20px;
+                margin-bottom:20px;
+                border:none;
+                outline:none;
+                background:transparent;
+                color:white;
+                border-bottom:1px solid rgba(225,225,225,0.8)
+            }
+            .button1{
+                height:30px;
+                width:80px;
+                font:sitka small;
+                font-size:18px;
+                border:none;
+                border-radius:5px;
+                margin-left:20px;
+                margin-bottom:10px;
+                cursor:pointer;
+                box-shadow:2px 2px 2px 2px rgba(128, 128, 128, 0.374);
+            }
+            .button2{
+                height:30px;
+                width:80px;
+                font:sitka small;
+                font-size:18px;
+                border:none;
+                border-radius:5px;
+                margin-left:20px;
+                margin-bottom:10px;
+                cursor:pointer;
+                transition:0.1s;
+                box-shadow:2px 2px 2px 2px rgba(128, 128, 128, 0.374);
+            }
+            .button1:active{
+                color:grey;
+            }
+            .button2:active{
+                color:grey;
+            }
+            .a2:hover{
+                text-decoration:underline;
+                cursor:pointer;
+            }
+            .a2:active{
+                color:grey;
+                cursor:pointer;
+            }
+            .anchor1:hover{
+                text-decoration:underline;
+                cursor:pointer;
+            }
+            .anchor1:active{
+                color:grey;
+                cursor:pointer;
+            }
+        </style>
+        <form>
+            <h1>LOGIN</h1>
+            <label>
+                Username
+            </label>
+            <input type="text">
+            <label>
+                Email ID
+            </label>
+            <input type="text">
+            <label>
+                Password
+            </label>
+            <input type="text">
+            <div style="display:flex;flex-direction:roe;gap:150px;">
+                <button class="button1">LOGIN</button>
+                <button class="button2">Cancel</button>
+            </div>
+            <div style="display:flex;flex-direction:roe;gap:90px;"">
+                <a class="a1" href="C:\Users\msubr\try.html" style="margin-left:20px;color:white;text-decoration:none;">Can't Login in?<span class="anchor1" style="text-decoration:underline;">Sign in</span></a>
+                <a class="a2" style="font:sitka small;color:white;">Forgot Password?</a>
+            </div>
+        </form>
+    </body>
+</html>
